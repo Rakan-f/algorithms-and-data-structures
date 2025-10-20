@@ -54,32 +54,32 @@ python -m algorithms.graphs.dijkstra
 |-----------|----------------|------------------|--------|
 | [Dijkstra's Shortest Path](algorithms/graphs/dijkstra.py) | O((V+E) log V) | O(V) | ✅ Implemented |
 | [A* Pathfinding](algorithms/graphs/astar.py) | O(E) | O(V) | ✅ Implemented |
-| Bellman-Ford | O(VE) | O(V) | 🚧 In Progress |
+| [Bellman-Ford](algorithms/graphs/bellman_ford.py) | O(VE) | O(V) | ✅ Implemented |
 | Tarjan's SCC | O(V+E) | O(V) | 📋 Planned |
 | Floyd-Warshall | O(V³) | O(V²) | 📋 Planned |
 
 ### Dynamic Programming
 | Algorithm | Time Complexity | Space Complexity | Status |
 |-----------|----------------|------------------|--------|
-| 0/1 Knapsack | O(nW) | O(nW) | 📋 Planned |
-| Unbounded Knapsack | O(nW) | O(W) | 📋 Planned |
+| [0/1 Knapsack](algorithms/dynamic_programming/knapsack.py) | O(nW) | O(nW) | ✅ Implemented |
+| [Unbounded Knapsack](algorithms/dynamic_programming/knapsack.py) | O(nW) | O(W) | ✅ Implemented |
+| [Fractional Knapsack](algorithms/dynamic_programming/knapsack.py) | O(n log n) | O(n) | ✅ Implemented |
 | Longest Common Subsequence | O(mn) | O(mn) | 📋 Planned |
 | Edit Distance | O(mn) | O(mn) | 📋 Planned |
-| Coin Change | O(nW) | O(W) | 📋 Planned |
 
 ### Data Structures
 | Structure | Operations | Status |
 |-----------|-----------|--------|
+| [LRU Cache](algorithms/data_structures/lru_cache.py) | Get/Put: O(1) | ✅ Implemented |
 | Segment Tree | Build: O(n), Query: O(log n) | 📋 Planned |
 | Trie | Insert/Search: O(k) | 📋 Planned |
-| LRU Cache | Get/Put: O(1) | 📋 Planned |
 | Bloom Filter | Insert/Query: O(k) | 📋 Planned |
 | Union-Find | O(α(n)) amortized | 📋 Planned |
 
 ### String Algorithms
 | Algorithm | Time Complexity | Space Complexity | Status |
 |-----------|----------------|------------------|--------|
-| KMP Pattern Matching | O(n+m) | O(m) | 📋 Planned |
+| [KMP Pattern Matching](algorithms/strings/kmp.py) | O(n+m) | O(m) | ✅ Implemented |
 | Rabin-Karp | O(n+m) average | O(1) | 📋 Planned |
 | Z-Algorithm | O(n) | O(n) | 📋 Planned |
 | Suffix Array | O(n log n) | O(n) | 📋 Planned |
