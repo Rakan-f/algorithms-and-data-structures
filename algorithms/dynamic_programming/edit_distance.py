@@ -254,6 +254,10 @@ def is_one_edit_away(str1: str, str2: str) -> bool:
     else:
         shorter, longer = str2, str1
 
+    # Identical strings are zero edits away, not one
+    if len1 == len2 and str1 == str2:
+        return False
+
     i = j = 0
     found_difference = False
 

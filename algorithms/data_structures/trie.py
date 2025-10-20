@@ -211,7 +211,12 @@ class Trie:
         if not word:
             return False
 
-        return _delete_helper(self.root, word, 0)
+        # Check if word exists before deleting
+        if not self.search(word):
+            return False
+
+        _delete_helper(self.root, word, 0)
+        return True
 
     def words_with_prefix(self, prefix: str) -> List[str]:
         """

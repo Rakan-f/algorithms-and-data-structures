@@ -48,7 +48,7 @@ class TestLCSLength:
     def test_partial_overlap(self) -> None:
         """Test strings with partial overlap."""
         assert lcs_length("abc", "bcd") == 2  # "bc"
-        assert lcs_length("hello", "yellow") == 3  # "llo"
+        assert lcs_length("hello", "yellow") == 4  # "ello"
 
 
 class TestLCSString:
