@@ -64,15 +64,15 @@ python -m algorithms.graphs.dijkstra
 | [0/1 Knapsack](algorithms/dynamic_programming/knapsack.py) | O(nW) | O(nW) | ✅ Implemented |
 | [Unbounded Knapsack](algorithms/dynamic_programming/knapsack.py) | O(nW) | O(W) | ✅ Implemented |
 | [Fractional Knapsack](algorithms/dynamic_programming/knapsack.py) | O(n log n) | O(n) | ✅ Implemented |
-| Longest Common Subsequence | O(mn) | O(mn) | 📋 Planned |
-| Edit Distance | O(mn) | O(mn) | 📋 Planned |
+| [Longest Common Subsequence](algorithms/dynamic_programming/lcs.py) | O(mn) | O(mn) | ✅ Implemented |
+| [Edit Distance](algorithms/dynamic_programming/edit_distance.py) | O(mn) | O(mn) | ✅ Implemented |
 
 ### Data Structures
 | Structure | Operations | Status |
 |-----------|-----------|--------|
 | [LRU Cache](algorithms/data_structures/lru_cache.py) | Get/Put: O(1) | ✅ Implemented |
+| [Trie](algorithms/data_structures/trie.py) | Insert/Search: O(k) | ✅ Implemented |
 | Segment Tree | Build: O(n), Query: O(log n) | 📋 Planned |
-| Trie | Insert/Search: O(k) | 📋 Planned |
 | Bloom Filter | Insert/Query: O(k) | 📋 Planned |
 | Union-Find | O(α(n)) amortized | 📋 Planned |
 
