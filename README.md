@@ -308,7 +308,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Documentation structure based on successful open-source projects
 
 ---
-
-**Built with ❤️ for learning and sharing knowledge**
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
